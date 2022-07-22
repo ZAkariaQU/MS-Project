@@ -1,0 +1,120 @@
+.second-section {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+}
+.third-section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.third-section > .second-title h1 {
+    font-weight: 900;
+}
+.third-section > .container  {
+ margin-bottom: 80px;
+}
+.third-section > .container > .row > .col-12 > .row > .col-12 > .products {
+    background-image: url(./../../images/product_1.jpg);
+    height: 359px;
+}
+
+.third-section > .container > .row > .col-12  {
+    margin-bottom: 30px;
+}
+.third-section > .container > .row > .col-12 > .card > .card-body{
+    height: 60px;
+}
+
+.first-section header > .nav > .navbar-toggler-icon{
+    padding-left:100px;
+}
+.third-section > .container > .row > .col-12 {
+    border-radius: 3%;
+}
+.third-section > .container > .row > .col-12 > .row > .col-12.bottom-product {
+    background-color: #401D49;
+    height: 99px;
+}
+
+.second-title {
+ margin-bottom: 20px;   
+}
+.third-section > .container > .row > .col-12 > .card > .card-body {
+    color: #D9D9D9;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.third-section > .container > .row > .col-12 > .card > .card-body.style-one {
+    background-color: #401D49;
+}
+.third-section > .container > .row > .col-12 > .card > .card-body.style-two {
+    background-color: #A3885D;
+}
+.third-section > .container > .row > .col-12 > .card > .card-body.style-three {
+    background-color: #566BD9;
+}
+.third-section > .container > .row > .col-12 > .card > .card-body.style-for {
+    background-color: #D69009;
+}
+.third-section > .container > .row > .col-12 > .card > .card-body.style-five {
+    background-color: #1B1B1C;
+}
+.third-section > .carousel > .carousel-inner > .carousel-item > .card > .row > .col-md-8 > .card-body {
+    background-color: #201D49; 
+    background-image: linear-gradient(to bottom left, #201D49, #2F0984);
+    height: 100%;
+    color: #FFFFFF;
+    direction: ltr;
+    padding-top: 60px;
+}
+.third-section > .carousel > .carousel-inner > .carousel-item > .card > .row > .col-md-8 > .card-body > .card-text > .text-muted{
+    color: #FFFFFF !important;
+}
+.third-section > .carousel > .carousel-inner > .carousel-item > .card > .row > .col-md-8 > .card-body > .card-text {
+    padding-left: 50px;
+}
+.third-section > .carousel > .carousel-inner > .carousel-item > .card > .row > .col-md-8 > .card-body > .card-title {
+    padding-left: 50px;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.third-section > .carousel > .carousel-inner > .carousel-item > .card > .row > .col-md-8 > .card-body > .card-text.body{
+    padding-top: 70px;
+}

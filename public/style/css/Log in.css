@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    max-width: 100%;
+    direction: rtl;
+}
+
+.container > .row > .col-12.right-side {
+    background-color: #201D49; /* For browsers that do not support gradients */
+    background-image: linear-gradient(url('file:///D:/MS/ms-zaki/public/images/imagelogin.png')),;
+    height: 822px;
+}
+
