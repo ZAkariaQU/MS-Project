@@ -17,60 +17,60 @@
   <body>
     <div class="container" > 
       <div class="row">
+        <!-- right-side -->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text-center right-side">
           <div class="header">
             <img src="./public/images/logo.png" alt="Ms-main-logo" width="100">
           </div>
         </div>
+        <!-- left-side -->
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 text-left left-side" >
           <div class="header" dir="ltr">
             <h6>تواجه مشكلة <a href="#">أحصل على مساعدة؟</a></h6>
           </div>
           <div class="title">
             <h3>مرحبًا بك في سوق الافتراضي </h3> 
-        </div>
+         </div>
         <div class="second-title">
           <h5>بيلانبت يسباتبنتمسي يبتايمنت يتسيمي يتيمتايافىتغتلافيتفغن بمياتب تيسبمشيستابا يبسب شتبشمبات</h5>
         </div>
-
-        <div class="btn shadow-lg p-3 mb-5 bg-body rounded" href="#"> 
-          <div class="img-arrow"><img src="./public/images/arrow.svg" alt="" width="30"></div>
-          <div class="img-but"> 
+        <!-- button -->
+        <div class="btn shadow-lg p-3 shadow-lg-button" href="#"> 
+          <div class="shadow-lg-img-arrow"><img src="./public/images/arrow.svg" alt="" width="30"></div>
+          <div class="shadow-lg-img-but"> 
             <img src="./public/images/logo.png" alt="" width="90">
-            <div class="Text-but"><h6> هل لديك حساب </h6></div>
-            <div class="Text-but2"><h7> هل لديك حساب </h7></div>
+            <div class="shadow-lg-Text-but"><h6> هل لديك حساب </h6></div>
+            <div class="shadow-lg-Text-but2"><h7> هل لديك حساب </h7></div>
           </div>
           </div>
         <div class="shadow-lg2">
-          <div class="btn shadow-lg p-3 mb-5 bg-body rounded" href="#">
-            <div class="img-arrow"><img src="./public/images/arrow.svg" alt="" width="30"></div>
-            <div class="img-but2"> 
+          <div class="btn shadow-lg p-3 shadow-lg-button" href="#">
+            <div class="shadow-lg-img-arrow2"><img src="./public/images/arrow.svg" alt="" width="30"></div>
+            <div class="shadow-lg-img-but"> 
               <img src="./public/images/logo.png" alt="" width="90">
-              <div class="Text-but"><h6> هل لديك حساب </h6></div>
-              <div class="Text-but2"><h7> هل لديك حساب </h7></div>
+              <div class="shadow-lg-Text-but"><h6> هل لديك حساب </h6></div>
+              <div class="shadow-lg-Text-but2"><h7> هل لديك حساب </h7></div>
             </div>
           </div>
-        </div>
-        
-
-        </div>
+         </div>
+         </div>
       </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script>
-      $(".container > .row > .left-side > .shadow-lg2").hover(function() {
-        $('.container > .row > .left-side > .shadow-lg2 >.shadow-lg >.img-arrow').show()
+      $(".container > .row > .left-side > .shadow-lg2>.btn").hover(function() {
+        $('.shadow-lg-img-arrow2').show()
       });
-      $(".container > .row > .left-side > .shadow-lg2").on( "mouseleave", function() {
-        $('.container > .row > .left-side > .shadow-lg2 >.shadow-lg >.img-arrow').hide()
+      $(".container > .row > .left-side > .shadow-lg2>.btn").on( "mouseleave", function() {
+        $('.shadow-lg-img-arrow2').hide()
       } );
 
       $(".container > .row > .left-side > .shadow-lg").hover(function() {
-        $('.container > .row > .left-side > .shadow-lg >.img-arrow').show()
+        $('.shadow-lg-img-arrow').show()
       });
       $(".container > .row > .left-side > .shadow-lg").on( "mouseleave", function() {
-        $('.container > .row > .left-side > .shadow-lg >.img-arrow').hide()
+        $('.shadow-lg-img-arrow').hide()
       } );
 
     </script>

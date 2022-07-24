@@ -118,3 +118,28 @@
 .third-section > .carousel > .carousel-inner > .carousel-item > .card > .row > .col-md-8 > .card-body > .card-text.body{
     padding-top: 70px;
 }
+.bg-primary {
+    background-color: #201D49; 
+    background: linear-gradient(358.73deg, #2F0984 -368.34%, #070521 98.56%);
+
+}
+.bg-primary>.container>.row>.text-center{
+
+height: 44px;
+top: -32px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+
+
+  
+}
