@@ -118,28 +118,147 @@
 .third-section > .carousel > .carousel-inner > .carousel-item > .card > .row > .col-md-8 > .card-body > .card-text.body{
     padding-top: 70px;
 }
+/* footer */
 .bg-primary {
     background-color: #201D49; 
     background: linear-gradient(358.73deg, #2F0984 -368.34%, #070521 98.56%);
 
 }
 .bg-primary>.container>.row>.text-center{
+     height: 44px;
+     top: -32px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 22px;
+     text-align: center;
+     color: #FFFFFF;
+     mix-blend-mode: normal;
+     opacity: 0.5; 
+}
+/* footer log */
+.bg-primary>.container>.row>.d-flex{
+    margin-top: 60px;
+}
 
-height: 44px;
-top: -32px;
+
+/* init carousel section */
+
+/* carousel-col */
+
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-col {
+    width: 23%;
+    height: 200px;
+    margin-bottom: 200px;
+    margin-right: 10px;
+    background:#FAFAFA;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    line-height: 20px;
+}
+.init{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+ /* text carousel  */
+.text-carousel{
+
+width: 280px;
+height: 51px;
+left: 30.36px;
+margin-top: -27.76px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+text-transform: capitalize;
+
+/* text color */
+color: #0A0915;
+}
+
+ /* card body carousel */
+.card-body-carousel{  
+
+width: 400px;
+height: 51px;
+left: 30.36px;
+margin-top: 27.75px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 18px;
 line-height: 22px;
 text-align: center;
+text-transform: capitalize;
 
-color: #FFFFFF;
+/* text color */
 
-mix-blend-mode: normal;
+color: #0A0915;
+
 opacity: 0.5;
 
+/* Inside auto layout */
 
-  
+flex: none;
+order: 1;
+flex-grow: 0;
 }
+
+.bg-footer{
+background: linear-gradient(45deg, #070521 0%, #461DA2 100%);
+opacity: 0.9;
+height:100%;
+width: 100%;
+min-height: 452px;
+max-height:452px ;
+
+}
+.img-footer{
+
+background-image:url(./../../images/footer.png) ;
+height: 100%;
+position: relative;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.Head-text{
+padding-right: 120px;
+padding-left: 112px;
+padding-top: 179px;
+}
+.H-text{
+
+font-family: 'Noto Sans Arabic';
+font-weight: 600;
+font-size: 40px;
+color: #FFFFFF
+}
+.H-text2{  
+    font-family: 'Noto Sans Arabic';
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.but-Dark{
+    padding-right: 1150px;
+    padding-left: 90px;
+    margin-top: -100px;
+    
+}
+.but-light{
+    padding-right: 1030px;
+    padding-left: 112px;
+    margin-top: -39px;
+}
+
