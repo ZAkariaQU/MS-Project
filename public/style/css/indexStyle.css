@@ -162,7 +162,7 @@
     line-height: 20px;
 }
 .init{
-    margin-top: 60px;
+    margin-top: 861px;;
     margin-bottom: 60px;
 }
  /* text carousel  */
@@ -199,15 +199,8 @@ font-size: 18px;
 line-height: 22px;
 text-align: center;
 text-transform: capitalize;
-
-/* text color */
-
 color: #0A0915;
-
 opacity: 0.5;
-
-/* Inside auto layout */
-
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -261,4 +254,62 @@ color: #FFFFFF
     padding-left: 112px;
     margin-top: -39px;
 }
+
+/* Metrics section */
+.Metrics{
+    height:100%;
+    width: 100%;
+    min-height: 692px;
+    max-height:692px ;
+    background: rgba(114, 104, 255, 0.08);
+}
+.rounded{
+    width: 540px;
+    height: 600px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding-right:48.5px;
+    padding-left: px;
+    padding-top: 96px;
+    padding-bottom: 96px; 
+}
+.containe {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+ .Metrics>.containe>.card{
+    width: 540px;
+    height: 500px;
+    top: 96px;
+    margin-left: 48px; 
+    margin-right: 50px;
+ }
+ .Metrics>.containe>.card>.card-img-top{
+    width:100%;
+    height:100%;
+ }
+
+  .tex { 
+    padding-top: 100px;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .Metrics>.containe>.card>.text-Metrics>.text{
+    padding-top: 100px;
+
+  }
+  .Metrics>.containe>.card>.text-Metrics>.second-title{
+    padding-top: 100px;
+    
+
+  }
+.float-right{
+    margin-top: -200px;
+    margin-right: 300px;
+}
+  
+  
 
