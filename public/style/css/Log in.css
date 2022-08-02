@@ -1,7 +1,38 @@
-
-
-.container > .row > .col{
-    background-color: #201D49; /* For browsers that do not support gradients */
-
+section {
+    background: linear-gradient(to right, transparent 55%, #fff 45%), url(./../../images/imagelogin.png) no-repeat center;
+    background-size: cover;
+}
+.col-sm-6{
+    width:40%;
+}
+.logo-login{
+    margin-top: 20px;
+}
+.title{
+    margin-top: 24px;
+}
+.second-title{
+    margin-top: 12px;
+}
+.Forms{
+    margin-top: 48px;
+}
+.forgot-password{
+    color:#7F56D9;
+}
+.d-flex{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 48px;
+    width: 350px;
+    height: 44px;
+    background-color: #7F56D9;
+}
+.forgot-Open-account{
+    margin-top: 24px;
+    text-align: center;
+    margin-bottom: -20px;
 }
 
+  
