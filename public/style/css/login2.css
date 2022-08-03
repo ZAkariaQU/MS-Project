@@ -1,0 +1,59 @@
+.col {
+  /*background: linear-gradient(to right, transparent 50%, #fff 50%), url(./../../images/login.png) no-repeat center;
+    background-size: cover;*/
+    background-image: url(./../../images/login.png);
+    min-height: 160%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    
+
+}
+.col-sm-6{
+    width:40%;
+}
+.text-center{
+max-width: 40%;
+margin-left: 523px;
+margin-right: 30%;
+margin-top: 107px;
+}
+.logo-login{
+    margin-right: 35%;
+}
+.title{
+    margin-top: 24px;
+    margin-right:30%;
+    color: #101828;
+}
+.second-title{
+    margin-top: 12px;
+    margin-right: 6%;
+}
+.alert{
+    margin-top: 24px;
+    text-align: right;
+    color: #D97517;
+}
+.Forms{
+    margin-top: 48px;
+    text-align:right;
+}
+.position-relative{
+    margin-bottom: 6px;
+}
+.form-control{
+    margin-top: 6px;
+}
+.form-group{
+    margin-top: 12px;
+}
+.btn{
+    width: 360px;
+    height: 44px;
+    background: #7F56D9;
+    margin-top: 24px;
+    margin-bottom: 35px;
+}
