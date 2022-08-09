@@ -25,10 +25,6 @@
 .third-section > .container > .row > .col-12 > .card > .card-body{
     height: 60px;
 }
-
-.first-section header > .nav > .navbar-toggler-icon{
-    padding-left:100px;
-}
 .third-section > .container > .row > .col-12 {
     border-radius: 3%;
 }
