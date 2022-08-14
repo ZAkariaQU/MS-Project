@@ -1,0 +1,238 @@
+.first-section{
+  margin-bottom: 9%;
+}
+.background_header-blogs{
+    background: url(./../../images/background_header-blogs.bmp);
+    background-size: 100%;
+    height: 550px;
+    max-height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.background_header-blogs p{
+    padding-top: 90px;
+    width: auto;
+    height: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px; 
+    text-align: center; 
+    color: #FFFFFF;
+}
+.title{
+    margin-top: 54px;
+    width: auto;
+    height: 30px; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center; 
+    color: #FFFFFF;
+}
+/*////////////////////////////////////////////////////*/
+/* flickity.css */
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #FAFAFA;
+}
+
+.carousel-cell {
+  width: 25%;
+  height: 180px;
+  margin-right: 10px;
+  background:#D0D5DD;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+.card-image-carousel{
+  max-height: 200px;
+   
+}
+.card-image-carousel img{
+  max-width: 100%;
+  height:200px ;
+  
+}
+.text-carousel{
+  position: absolute;
+   width: 40px;
+  height: 24px;
+  left: 222px;
+  top: 32px; 
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 32px;
+  color: #000000;
+}
+
+
+/*//////////////////////////////////////////////////*/
+.Products{
+  justify-content: center;
+  margin-top: 60%;
+  margin-bottom: 40%;
+}
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box ;
+ font-family: "Poppins",sans-serif;
+}
+.container{
+  max-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 30px;
+} 
+.card{
+   position: relative;
+   background: #FFFFFF;
+   max-width: 325px;
+   height: auto;
+   margin: 25px;
+   box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+   border-radius: 10px;
+   overflow: hidden;
+}
+.card-image{
+  margin-bottom: 20%;
+  max-height: 200px;
+}
+.card-image img{
+  max-width: 100%;
+  height: auto;
+}
+.checked {
+  color: orange;
+}
+.button-points{
+  margin-top: 40%;
+  border: 1px solid #000000;
+  border-radius: 34px;
+  color: #101828;
+}
+.card-info{
+  position: relative;
+  color: #222;
+  padding: 10px 20px 20px;
+  margin-top: 15%;
+}
+.card-info h3{
+  width: 160px;
+  height: 32px;
+  
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px; 
+  text-align: right;
+  color: #101828;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+
+}
+.card-info p{
+  width: auto;
+  height: 32px; 
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px; 
+  text-align: right;
+  color: #101828;
+  margin-bottom: 5px;
+
+}
+/*--------------------*/
+.pagination{
+  padding-top: 50%;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 30px 60px;
+  
+}
+.pagination li{
+  display: inline-block;
+  margin: 5px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+.pagination li a{
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.previous-page, .next-page{
+  background: #201D49;
+  width: 80px;
+  border-radius: 45px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.previous-page:hover{
+  transform: translateX(5px);
+}
+.next-page:hover{
+  transform: translateX(-5px);
+}
+
+.current-page, .dots{
+  background: #ccc;
+  width: 45px; 
+  border-radius: 50%;
+  cursor: pointer;
+}
+.active{
+  background: #201D49;
+}
+.disable{
+  background: #ccc;
+}
+
+/* footer */
+.bg-primary {
+    background-color: #201D49; 
+    background: linear-gradient(358.73deg, #2F0984 -368.34%, #070521 98.56%);
+    margin-top: auto;
+    margin-top: 0%;
+
+}
+.bg-primary>.container>.row>.text-center{
+     height: 44px;
+     top: -32px;
+     font-family: 'Inter';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 22px;
+     text-align: center;
+     color: #FFFFFF;
+     mix-blend-mode: normal;
+     opacity: 0.5; 
+}
+/* footer log */
+.bg-primary>.container>.row>.d-flex{
+    margin-top: 60px;
+}
