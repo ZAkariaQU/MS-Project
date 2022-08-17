@@ -1,6 +1,4 @@
-*{
-    font-family: 'Noto Sans Arabic', sans-serif !important;
-}
+
 :root {
     --main-color: #0d052f;
     --main-hover-color: #0d052f8c;
@@ -78,6 +76,7 @@
     margin-top: 25px;
     background-color: var(--main-whit) !important;
     padding-left: 35px;
+    padding-right: 35px;
 }
 .second-section {
     padding-top: 200px;
@@ -92,12 +91,101 @@
 .third-section > .second-title h1 {
     font-weight: 900;
 }
-.third-section > .container  {
-
-}
 .third-section > .container > .row > .col-12 > .products {
     background-image: url(./../../images/product_1.jpg);
 }
-.first-section header > .nav > .navbar-toggler-icon{
-    padding-left:100px;
+
+/*/////////////////////////////////////////////////////////////////////////*/
+.openNav{
+    height: 34px;
+    padding-top: 15px;  
 }
+.overlay {
+    margin-top: px;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background: rgba(32, 29, 73, 0.71);
+    backdrop-filter: blur(40px);    
+    border-radius: 8px;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    /*text-align: center;*/
+    margin-top: 30px;
+    
+  }
+  .list-Nav{
+    padding-right: 142px;
+  }
+  .info-Nav{
+    padding-left: 142px;
+    text-align: left;
+  }
+  .overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #FFFFFF;;
+    display: block;
+    transition: 0.3s;
+    font-weight: 500;
+    text-align: right;
+  }
+  .text-Nav{
+    width: 562px;
+    height: 149px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;  
+    color: #FFFFFF;
+  }
+  .text-Nav-2{
+    width: 98px;
+    height: 28px;   
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;   
+    color: #FFFFFF;            
+  }
+  .icon-Nav{
+    text-align:left;
+    color: #FFFFFF;
+    font-size: 24px;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #AF8BFF;;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }

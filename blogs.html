@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./public//style/css/style.css" />
     <link rel="stylesheet"  href="./public//style/css/blogs.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&display=swap" rel="stylesheet">
@@ -30,7 +29,32 @@
                   <a class="navbar-brand" href="index.html">
                     <img src="./public/images/logo.png" alt="Main logo ms" height="40">
                   </a>
-                     
+                  <p class="openNav" id="openNav" >  القائمة  <i class="fa-solid fa-align-right" ></i></p>
+                </div>
+                <div id="myNav" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+                  <div class="overlay-content">
+                    <div class="row">
+                      <div class="info-Nav col">
+                        <img src="./public/images/logo.png" alt="Main logo ms" height="60">
+                        <p class="text-Nav"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu adipiscing a, eleifend ut facilisis. Massa convallis feugiat sapien ultricies at quam. In condimentum sed senectus blandit eu.  </p>
+                        <p class="text-Nav-2" href="#!">  ← أتصل بنا    </p>
+                        <div class="icon-Nav">
+                          <i class="fa-brands fa-facebook-f" href="#!"></i>
+                          <i class="fa-brands fa-instagram" href="#!"></i>
+                        </div>
+                        
+                      </div>
+                      <div class="list-Nav col">
+                        <a href="index.html">صفحة الرئيسية</a>
+                        <a href="shop.html">منتجاتنا</a>
+                        <a href="blogs.html">مقالات</a>
+                        <a href="Profile.html">حولنا</a>
+                        <a href="Log in.html">تسجيل الدخول</a>
+                      </div>
+                    </div>
+                    
+                  </div>
                 </div>
               </nav>
         </div>
@@ -453,6 +477,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./public/js/mune.js"></script>
     <script>
 
       let loadMoreBtn = document.querySelector('#load-more');
